@@ -154,43 +154,40 @@ ul,ol {
     margin: 0 auto;
 }
 
+.container-hero-heading {
+    padding-top: 200px;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
 .hero-heading {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    max-width: 700px;
-    background-color: #2F303A;
-    padding-top: 200px;
-    margin: 0 auto;
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: 0.06em;
 }
-.button-hero-position {
-    padding-bottom: 200px;
-}
+
 .hero-bottom {
     display: block;
     margin: 0 auto;
     margin-top: 30px;
+    
 }
 
 /******* END HERO *******/
 
 /******* BENEFITS *******/
 
-.container-benefits {
-    max-height: 770px;
-    max-width: 1170px;
+.container-benefits { 
     margin: 0 auto;
 }
 
 .benefits-list {
-    padding: 0;
-    margin: 0 auto;
-    margin-top: 90px;
+    padding-top: 90px;
     display: flex;
 }
 
@@ -199,16 +196,12 @@ ul,ol {
 }
 
 
-.benefits-list-item:nth-child(2),
-.benefits-list-item:nth-child(3),
-.benefits-list-item:nth-child(4),
-.benefits-list-item:nth-child(5) {
+.benefits-list-item:not(:first-child) {
     margin-left: 30px;
 }
 
 .benefits-list-heading {
-    margin: 0;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -217,9 +210,8 @@ ul,ol {
 }
 
 .benefits-paragraph {
-    margin: 0;
     margin-top: 10px;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -238,10 +230,10 @@ ul,ol {
 }
 
 .benefits-img-list {
-    padding: 0;
-    margin-bottom: 94px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-bottom: 94px;
     display: flex;
-    justify-content: space-between;
 }
 
 /******* END BENEFITS *******/
