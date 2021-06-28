@@ -374,15 +374,9 @@ ul,ol {
     border-top: 1px solid #ECECEC;
 }
 
-.catalog-button {
-    max-width: 1170px;
-    margin: 0 auto;
-
-}
-
 .catalog-button-list {
-    margin-top: 94px;
-    padding: 0;
+    padding-top: 94px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     max-width: 516;
@@ -398,7 +392,7 @@ ul,ol {
     line-height: 1.65;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
     border: none;
     background: #F5F4FA;
     border-radius: 4px;
@@ -413,29 +407,38 @@ ul,ol {
 }
 
 .catalog-list {
-    margin: 0 auto;
-    padding: 0;
-    margin-top: 20px;
     display: flex;
-    width: 1170px;
-    justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 94px;
+    margin-top: -27px;
+    margin-left: -27px;
+    padding-bottom: 94px;
 }
 
 .catalog-list-item {
-    margin-top: 30px;
+    margin-top: 27px;
+    margin-left: 27px;
 }
 
 .catalog-border-list-item {
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
+    white-space: nowrap;
     margin: 0;
 }
 
+.catalog-border-list-item-img {
+    display: block;
+}
+
+.catalog-list-item-text {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    
+}
+
 .catalog-list-item-heading {
+    margin-top: 20px;
     margin-left: 24px;
+    margin-right: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -444,7 +447,10 @@ ul,ol {
 }
 
 .catalog-list-item-paragraph {
+    margin-top: 5px;
     margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 20px;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.88;
