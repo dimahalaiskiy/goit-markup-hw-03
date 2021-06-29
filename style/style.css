@@ -58,6 +58,7 @@ ul,ol {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    box-sizing: content-box;
 }
 
 
@@ -190,6 +191,7 @@ ul,ol {
     padding-top: 94px;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .benefits-list-heading {
@@ -233,6 +235,7 @@ ul,ol {
 .benefits-list-item {
     margin-top: 0px;
     margin-left: 30px;
+    display: block;
 }
 
 /******* END BENEFITS *******/
