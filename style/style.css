@@ -84,7 +84,6 @@ ul,ol {
 
 .logo-style {
     margin-right: 95px;
-
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -187,10 +186,10 @@ ul,ol {
 }
 
 .benefits-list {
-    margin-top: -30px;
     margin-left: -30px;
-    padding-top: 90px;
+    padding-top: 94px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .benefits-list-heading {
@@ -213,7 +212,7 @@ ul,ol {
 }
 
 .benefits-heading {
-    margin-top: 95px;
+    margin-top: 94px;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -224,7 +223,7 @@ ul,ol {
 }
 
 .benefits-img-list {
-    margin-top: -30px;
+    margin-top: 0px;
     margin-left: -30px;
     display: flex;
     flex-wrap: wrap;
@@ -232,7 +231,7 @@ ul,ol {
 }
 
 .benefits-list-item {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 30px;
 }
 
@@ -409,18 +408,17 @@ ul,ol {
 .catalog-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -27px;
-    margin-left: -27px;
+    margin-top: -30px;
+    margin-left: -30px;
     padding-bottom: 94px;
 }
 
 .catalog-list-item {
-    margin-top: 27px;
-    margin-left: 27px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .catalog-border-list-item {
-    white-space: nowrap;
     margin: 0;
 }
 
@@ -436,9 +434,9 @@ ul,ol {
 }
 
 .catalog-list-item-heading {
-    margin-top: 20px;
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -447,11 +445,11 @@ ul,ol {
 }
 
 .catalog-list-item-paragraph {
-    margin-top: 5px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 20px;
-    font-weight: normal;
+    padding-top: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
