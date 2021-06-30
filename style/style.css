@@ -214,7 +214,6 @@ ul,ol {
 
 .benefits-heading {
     margin-top: 94px;
-    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -224,7 +223,7 @@ ul,ol {
 }
 
 .benefits-img-list {
-    margin-top: 0px;
+    margin-top: 50px;
     margin-left: -30px;
     display: flex;
     flex-wrap: wrap;
@@ -307,6 +306,7 @@ ul,ol {
     background-color: #2F303A;
     margin: 0 auto;
     padding-top: 60px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
 }
@@ -325,9 +325,6 @@ ul,ol {
     color: var(--focus-color);
 }
 
-.footer-list {
-    padding-bottom: 60px;
-}
 
 .footer-list-item {
     margin-top: 18px;
@@ -377,7 +374,7 @@ ul,ol {
 
 .catalog-button-list {
     padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     max-width: 516;
@@ -432,13 +429,10 @@ ul,ol {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     border-top: none;
-    
+    padding: 20px 24px;
 }
 
 .catalog-list-item-heading {
-    padding-top: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -447,10 +441,7 @@ ul,ol {
 }
 
 .catalog-list-item-paragraph {
-    padding-top: 5px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 20px;
+    margin-top: 5px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
